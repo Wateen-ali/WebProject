@@ -31,6 +31,7 @@ exports.homescreen = async (req, res, next) => {
                 $project: {
                     title: { $substr: ['$title', 0, 30] },
                     body: { $substr: ['$body', 0, 100] },
+                    date:1
                 },
             },
         ])
@@ -84,7 +85,7 @@ exports.homescreenUpdateJournal = async(req,res) => {
     try {
         await Journal.findOneAndUpdate(
             { _id : req.params.id},
-            {title : req.body.title , body: req.body.body , updatedAt: Date.now()}
+            {title : req.body.title , body: req.body.body ,  date: req.body.date, updatedAt: Date.now()}
         ).where({ user: req.user.id });
         res.redirect('/homescreen');
 
@@ -134,7 +135,14 @@ exports.homescreenAddJournalSubmit = async (req,res) => {
     try {
 
         req.body.user = req.user.id;
-        await Journal.create(req.body);
+        const journalData = {
+            title: req.body.title,
+            body: req.body.body,
+            user: req.user.id,
+            date: req.body.date || new Date() // Store date properly
+        };
+
+        await Journal.create(journalData);
         res.redirect('/homescreen');
         
     } catch (error) {
