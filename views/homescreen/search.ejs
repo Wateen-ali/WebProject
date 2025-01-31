@@ -1,0 +1,18 @@
+<div class="container-fluid container-fluid-custom pb-5 mb-5">
+
+  <div class="row">
+    <% if(searchResults != '') { %>
+      <% searchResults.forEach(function (journal, index) { %>
+        
+        <a href="/homescreen/item/<%= journal._id %>">
+        <h4><%= journal.title %></h4>
+        </a>
+
+      <% }) %>
+    <% } else { %>
+      <p>No items found.</p>
+    <% } %>
+
+  </div>
+
+</div>
