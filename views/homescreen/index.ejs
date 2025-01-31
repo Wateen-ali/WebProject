@@ -24,8 +24,16 @@
                                 <%= journals[i].title %>
                             </h5>
                             <p class="card-text">
-                                <%= journals[i].body %>
+    <%= journals[i].body.length > 100 ? journals[i].body.substring(0, 100) + '...' : journals[i].body %>
+</p>
+
+
+                            <p class="text-muted small">
+                               <%= journals[i].date ? new Date(journals[i].date).toLocaleDateString() : 'No Date' %>
                             </p>
+                            
+
+
                         </a>
 
                     </div>
@@ -39,7 +47,7 @@
                             <img src="/img/7D48E82C-16D5-4DB3-9161-2349923AE84F.PNG" alt="human">
                         </div>
                         <div class="col mt-md-4">
-                            <h2>We are here for you..</h2>
+                            <h2>We are here for you -`♡´-</h2>
                             <h4>Let's share our memory together <br /><br />
                               
                             </h4>
