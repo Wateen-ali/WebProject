@@ -16,7 +16,7 @@
 ### MongoDB
 
 ## Flow chart:
-![Alt text](/Users/watenalrumayh/Desktop/flowchart.jpg)
+![Alt text](flowchart.jpg)
 
 
 ## Future work:
