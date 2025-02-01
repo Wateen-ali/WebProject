@@ -32,6 +32,14 @@
 ### •	We will make people add comment in the other people posts.
 
 ## some ScreenShots:
+### Welcom page:
+![Alt text](WelcomPage.jpg)
+### Home page:
+![Alt text](HomescreenPIC.jpg)
+### Adding new journal page:
+![Alt text](Addingjornalpage.jpg)
+### Profile page:
+![Alt text](ProfilePage.jpg)
 
 
 ## Resources:
