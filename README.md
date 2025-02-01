@@ -49,6 +49,9 @@
 ### [image3](https://pin.it/3mUx3LmN3)
 ### 2-video watched:
 ### [link](https://youtu.be/BDo1lgaZuII?si=PSYfi6kItVxwh2ls)
+### 3- bootstrap:
+### [for the header](https://getbootstrap.com/docs/5.0/examples/headers/)
+### [for the footer](https://getbootstrap.com/docs/5.2/examples/footers/)
 
 
 
