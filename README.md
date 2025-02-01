@@ -5,15 +5,22 @@
 ### HiveMind help us create a space where people can freely share and watch different moment.
 
 ## Technologies Used:
+### visual studio code
 ### 1-Frontend:
-### JavaScript
-### CSS
-### EJS 
+### •JavaScript
+### •CSS
+### •EJS 
 ### 2-Backend:
-### Node.js
-### Express.js
+### •Node.js
+### •Express.js
 ### 3-Database:
-### MongoDB
+### •MongoDB
+
+## SetUp
+### Installation:
+### first: install "nodeJs"
+### second: after creating a project install these dependeses npm i connect-mongo dotenv ejs express express-ejs-layouts express-session method-override mongoose passport passport-google-oauth20 nodemon --save-dev
+### last thing for starting the project : npm start
 
 ## Flow chart:
 ![Alt text](flowchart.jpg)
@@ -21,7 +28,11 @@
 
 ## Future work:
 ### •	We will add different categories like short stories.
+### • We will make the pepole post there journals to others.
 ### •	We will make people add comment in the other people posts.
+
+## some ScreenShots:
+
 
 ## Resources:
 ### 1-images used:
