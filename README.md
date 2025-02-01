@@ -16,7 +16,7 @@
 ### MongoDB
 
 ## Flow chart:
-![Alt text](C:/Users/watenalrumayh/Desktop/IMG_9856.jpg)
+![Alt text](/Users/watenalrumayh/Desktop/IMG_9856.jpg)
 
 
 ## Future work:
