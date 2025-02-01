@@ -35,11 +35,11 @@
 ### Welcom page:
 ![Alt text](WelcomPage.jpg)
 ### Home page:
-![Alt text](HomescreenPIC.jpg)
+![Alt text](HomescreenPIC.png)
 ### Adding new journal page:
-![Alt text](Addingjornalpage.jpg)
+![Alt text](Addingjornalpage.png)
 ### Profile page:
-![Alt text](ProfilePage.jpg)
+![Alt text](ProfilePage.png)
 
 
 ## Resources:
