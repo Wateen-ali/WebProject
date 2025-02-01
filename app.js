@@ -7,6 +7,7 @@ const session = require('express-session');
 const passport = require('passport');
 const MongoStore = require('connect-mongo');
 
+
 const app = express();
 const PORT = process.env.PORT || 5001;
 const HOST = '0.0.0.0'; // Allows access from other devices
@@ -51,3 +52,10 @@ app.get('*', (req, res) => {
 app.listen(PORT, HOST, () => {
     console.log(`Server running at http://${HOST}:${PORT}`);
 });
+
+//routers
+const path = require("path");
+
+// Set Express view engine and update views directory to include subfolders
+app.set("view engine", "ejs");
+app.set("views", path.join(__dirname, "views")); // Ensure Express can find views inside subfolders
