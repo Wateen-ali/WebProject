@@ -15,15 +15,22 @@
 ### 3-Database:
 ### MongoDB
 
+## Flow chart:
+![Alt text](C:/Users/watenalrumayh/Desktop/IMG_9856.jpg)
+
+
 ## Future work:
 ### •	We will add different categories like short stories.
 ### •	We will make people add comment in the other people posts.
 
 ## Resources:
-### images used:
-###
-###
-### video watched:
+### 1-images used:
+### [image1](https://pin.it/lGuV7CJTf)
+### [image2](https://pin.it/49XnKlBD3)
+### [image3](https://pin.it/3mUx3LmN3)
+### 2-video watched:
+### [link](https://youtu.be/BDo1lgaZuII?si=PSYfi6kItVxwh2ls)
+
 
 
 ## Team member:
